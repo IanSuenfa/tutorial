@@ -1,0 +1,107 @@
+:root {
+    --faded: #777;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    background: url("https://tse4.mm.bing.net/th?id=OIP.hbyY-wQCV7_mWT9dXYnvPQAAAA&pid=Api&P=0");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 100% 100%;
+  }
+  
+  .text {
+    position: absolute;
+    top: 45%;
+    left: 80px;
+    transform: translateY(-50%);
+  }
+  
+  .text > * {
+    margin: 10px;
+  }
+  
+  h1 {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  button {
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    /*   height: 50px; */
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.82);
+    text-align: right;
+    box-shadow: 0px 1px grey;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    margin: 15px;
+    padding: 0;
+    font-size: large;
+    font-family: "Raleway", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .download {
+    height: 20px;
+    width: 80px;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 5px;
+  }
+  
+  .cog {
+    top: 200px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+  }
+  
+  button {
+    color: var(--faded);
+  }
+  
+  p {
+    color: var(--faded);
+  }
+  
+  li,
+  button,
+  .cog {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      background-size: 200px;
+    }
+  
+    nav li {
+      font-size: small;
+      margin: 10px;
+    }
+  
+    .text {
+      position: static;
+      transform: none;
+    }
+  }
+  
