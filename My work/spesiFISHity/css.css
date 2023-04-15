@@ -1,0 +1,34 @@
+* {
+    color: grey;
+  }
+  li { color: lightblue; }
+  li:before{content: '<li>'}
+  
+  ul li {color: blue;}
+  ul li:before{content: 'ul li'}
+  
+  .my-class {color: lightgreen; }
+  .my-class:before{content: 'my-class'}
+  
+  ul .my-class {color: darkgreen;}
+  ul .my-class:before {content: 'ul .my-class'}
+  
+  #my-id { color: lightsalmon;}
+  #my-id:before{content: '#my-id'}
+  
+  .my-unorded-list #my-id{color: tan}
+  .my-unorded-list #my-id:before{content: 'my-unorded-list #my-id'}
+  
+  .my-inline-style:before {
+    content: '<li class="my-inline-style" style="color:magenta">'
+  }
+  
+  .my-important-style {color: red !important}
+  .my-important-style:before{content: '!important'}
+  
+  
+  * {
+    color: goldenrod;
+  }
+  
+  
